@@ -262,44 +262,14 @@ Los archivos actualizados se generan automáticamente con el formato:
 - **Eliminadas**: Desaparecen automáticamente del nuevo JSON
 - Se genera reporte de cambios para seguimiento
 
-### 🔍 **Herramientas de Análisis**
 
-#### Detector de Cambios Previo
-```bash
-python detector_cambios.py careers-udla.json nuevo_pregrado.csv
-```
-**Muestra:**
-- 📊 Qué regímenes son nuevos o se eliminaron
-- 🏢 Cambios en sedes y campus
-- 🎓 Carreras agregadas/eliminadas
-- 💡 Recomendaciones de acción
+## 🛡️ Validaciones incluidas
 
-#### Mantenedor Adaptable
-```bash
-python mantenedor_adaptable.py careers-udla.json nuevo_pregrado.csv
-```
-**Características:**
-- 🔍 Analiza estructura automáticamente
-- 🆕 Detecta y procesa elementos nuevos
-- 📊 Muestra reporte de cambios realizados
-- ✅ Mantiene compatibilidad total
-
-### ⚠️ Consideraciones Importantes:
-
-#### Para Regímenes Nuevos:
-- Se recomienda usar códigos únicos y secuenciales
-- Verificar que no conflicten con regímenes existentes
-- Coordinar con equipos de registro académico
-
-#### Para Sedes Nuevas:
-- Verificar disponibilidad de infraestructura
-- Coordinar con equipos de logística
-- Asegurar conectividad de sistemas
-
-#### Para Carreras Eliminadas:
-- Verificar que no hay estudiantes activos
-- Coordinar proceso de descontinuación
-- Mantener registros históricos
+- ✅ **Estructura del CSV**: Verifica que tenga todas las columnas requeridas
+- ✅ **Archivos existentes**: Confirma que los archivos existen antes de procesar
+- ✅ **Confirmación del usuario**: Solicita confirmación antes del reemplazo
+- ✅ **Detección automática**: Identifica automáticamente pregrado vs postgrado
+- ✅ **Estructura JSON**: Mantiene la estructura original intacta
 
 ## 🏫 Sedes y Campus soportados
 
@@ -318,7 +288,8 @@ python mantenedor_adaptable.py careers-udla.json nuevo_pregrado.csv
 
 ### Online (ID: 3)
 - Online (OL)
-- Campus Virtual Nacional (CV)
+
+**Nota**: El sistema detecta automáticamente nuevas sedes y campus desde el CSV y les asigna IDs únicos.
 
 ## ⚠️ Solución de problemas
 
@@ -333,7 +304,7 @@ python mantenedor_adaptable.py careers-udla.json nuevo_pregrado.csv
 
 ### Error: "JSON no es válido"
 - Verifique que el archivo JSON esté bien formateado
-- Use un validador JSON online para verificar la sintaxis
+- Asegúrese de que tenga la estructura de Pregrado/Postgrado
 
 ### El script no detecta el tipo de CSV
 - Asegúrese de que el nombre del archivo contenga "pregrado" o "postgrado"
@@ -348,33 +319,61 @@ python mantenedor_adaptable.py careers-udla.json nuevo_pregrado.csv
    ├── actualizador.py
    ├── README.md
    ├── careers-udla.json
-   └── pregrado.csv
+   ├── pregrado_completo.csv
+   └── postgrado_completo.csv
    ```
 
 2. **Ejecutar actualizador:**
    ```bash
-   cd mantenedor-carreras
    python actualizador.py
    ```
 
-3. **Seleccionar opción del menú:**
-   ```
-   📋 Opciones disponibles:
-      1. Actualizar PREGRADO: careers-udla.json + pregrado.csv
-      2. Salir
-   
-   ➤ Seleccione una opción (1-2): 1
-   ```
+3. **Seleccionar archivos** en el menú interactivo
 
-4. **Resultado:**
-   ```
-   ✅ ¡Actualización completada exitosamente!
-   📄 Archivo generado: careers-udla-16-10-25.json
-   ```
+4. **Confirmar reemplazo** cuando se solicite
 
-## 🤝 Contribuciones
+5. **Verificar resultado** en el archivo generado con fecha
 
-Este sistema es mantenido para la Universidad de Las Américas. Para mejoras o reportar problemas, contacte al equipo de desarrollo.
+## 🔧 Características técnicas
+
+- **Lenguaje**: Python 3.6+
+- **Dependencias**: Solo librerías estándar (json, csv, os, sys, datetime)
+- **Encoding**: UTF-8 para soporte completo de caracteres especiales
+- **Estructura**: Preserva exactamente la jerarquía JSON original
+- **Rendimiento**: Optimizado para procesar miles de carreras
+
+## 📋 Archivos del sistema
+
+Solo dos archivos principales:
+
+1. **`mantenedor.py`** - Script principal de reemplazo total
+2. **`actualizador.py`** - Interfaz interactiva
+
+## 🎯 Casos de uso
+
+### 1. Actualización semestral completa
+```bash
+python actualizador.py
+# Seleccionar careers-udla.json y pregrado_2024_2.csv
+```
+
+### 2. Actualización rápida por línea de comandos
+```bash
+python mantenedor.py careers-udla.json postgrado_nuevos.csv
+```
+
+### 3. Migración a nueva estructura
+```bash
+python mantenedor.py careers-udla.json datos_con_nuevos_regimenes.csv
+```
+
+## 📞 Soporte
+
+Para problemas o dudas sobre el sistema:
+1. Verificar que los archivos CSV tengan todas las columnas requeridas
+2. Confirmar que los nombres de archivos sigan las convenciones
+3. Revisar que el JSON base tenga la estructura correcta
 
 ---
-*Mantenedor de Carreras UDLA v1.0 - Octubre 2025*
+
+**¡Sistema listo para uso en producción!** 🚀
