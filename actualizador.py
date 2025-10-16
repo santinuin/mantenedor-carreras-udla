@@ -9,7 +9,8 @@ de pregrado o postgrado con todos los datos del CSV.
 
 import os
 import sys
-import subprocess
+import json
+import importlib.util
 from datetime import datetime
 
 def buscar_archivos():
@@ -89,30 +90,61 @@ def confirmar_operacion(archivo_json, archivo_csv):
     return respuesta in ['s', 'si', 'sí', 'y', 'yes']
 
 def ejecutar_reemplazo(archivo_json, archivo_csv):
-    """Ejecuta el reemplazo total usando mantenedor.py."""
-    script = os.path.join(os.path.dirname(__file__), 'mantenedor.py')
-    comando = [sys.executable, script, archivo_json, archivo_csv]
-    
+    """Ejecuta el reemplazo total llamando directamente al mantenedor."""
     try:
         print("\n🚀 Ejecutando reemplazo total...")
         print("⏳ Por favor espere...")
         
-        resultado = subprocess.run(comando, check=True, capture_output=True, text=True)
+        # Cargar el módulo mantenedor
+        spec = importlib.util.spec_from_file_location("mantenedor", "mantenedor.py")
+        mantenedor_module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mantenedor_module)
         
-        print("✅ Reemplazo total completado exitosamente")
-        if resultado.stdout:
-            # Filtrar salida para mostrar solo lo importante
-            lineas = resultado.stdout.split('\n')
-            for linea in lineas:
-                if any(x in linea for x in ['✅', '📊', '📋', '🏢', '🏫', '💾', '🎉', '📄']):
-                    print(linea)
-                    
-    except subprocess.CalledProcessError as e:
-        print(f"❌ Error en reemplazo total: {e}")
-        if e.stdout:
-            print("Salida:", e.stdout)
-        if e.stderr:
-            print("Error:", e.stderr)
+        # Detectar tipo de CSV
+        nombre_lower = archivo_csv.lower()
+        if 'pregrado' in nombre_lower:
+            tipo_csv = 'pregrado'
+        elif 'postgrado' in nombre_lower:
+            tipo_csv = 'postgrado'
+        else:
+            print(f"⚠️  No se pudo detectar el tipo automáticamente desde '{archivo_csv}'")
+            return False
+        
+        print(f"📋 Tipo detectado: {tipo_csv.upper()}")
+        
+        # Leer archivos
+        carreras_csv = mantenedor_module.leer_csv_carreras(archivo_csv)
+        json_data = mantenedor_module.leer_json_base(archivo_json)
+        
+        # Validar estructura del CSV
+        es_valido, mensaje = mantenedor_module.validar_estructura_csv(carreras_csv)
+        if not es_valido:
+            print(f"❌ Error en estructura del CSV: {mensaje}")
+            return False
+        
+        # Reemplazar sección completa
+        json_actualizado = mantenedor_module.reemplazar_seccion_completa(
+            json_data.copy(), carreras_csv, tipo_csv
+        )
+        
+        # Generar archivo de salida
+        archivo_salida = mantenedor_module.generar_nombre_archivo(archivo_json)
+        
+        # Guardar
+        with open(archivo_salida, 'w', encoding='utf-8') as f:
+            json.dump(json_actualizado, f, ensure_ascii=False, indent=4)
+        
+        print(f"💾 Archivo guardado exitosamente: {archivo_salida}")
+        print("🎉 ¡Reemplazo completado exitosamente!")
+        print(f"📄 Archivo generado: {archivo_salida}")
+        print(f"🔄 Sección {tipo_csv} completamente actualizada")
+        
+        return True
+        
+    except Exception as e:
+        print(f"❌ Error durante el reemplazo: {e}")
+        print(f"   Detalle: {str(e)}")
+        return False
 
 def main():
     print("🚀 Mantenedor de Carreras UDLA - Reemplazo Total")
@@ -155,7 +187,12 @@ def main():
             continue
         
         # Ejecutar reemplazo
-        ejecutar_reemplazo(archivo_json, archivo_csv)
+        exito = ejecutar_reemplazo(archivo_json, archivo_csv)
+        
+        if exito:
+            print("\n✅ Operación completada exitosamente")
+        else:
+            print("\n❌ La operación falló")
         
         # Preguntar si desea continuar
         print(f"\n¿Desea realizar otro reemplazo? (s/n): ", end="")
