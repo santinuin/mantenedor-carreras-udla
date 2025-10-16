@@ -1,0 +1,1699 @@
+{
+    "Pregrado": {
+        "id": "0",
+        "regimes": [
+            {
+                "Diurno": {
+                    "id": "1",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Santiago Centro": {
+                                            "id": "SC",
+                                            "careers": [
+                                                {
+                                                    "id": "USC1318",
+                                                    "name": "Administración Pública"
+                                                },
+                                                {
+                                                    "id": "USC174",
+                                                    "name": "Comunicación Audiovisual"
+                                                },
+                                                {
+                                                    "id": "USC159",
+                                                    "name": "Contador Auditor"
+                                                },
+                                                {
+                                                    "id": "USC156",
+                                                    "name": "Derecho"
+                                                },
+                                                {
+                                                    "id": "USC166",
+                                                    "name": "Educación Parvularia"
+                                                },
+                                                {
+                                                    "id": "USC1157",
+                                                    "name": "Enfermería"
+                                                },
+                                                {
+                                                    "id": "USC154",
+                                                    "name": "Ingeniería Civil Industrial"
+                                                },
+                                                {
+                                                    "id": "USC181",
+                                                    "name": "Ingeniería de Ejecución en Informática"
+                                                },
+                                                {
+                                                    "id": "USC1112",
+                                                    "name": "Kinesiología"
+                                                },
+                                                {
+                                                    "id": "USC163",
+                                                    "name": "Medicina Veterinaria"
+                                                },
+                                                {
+                                                    "id": "USC1132",
+                                                    "name": "Nutrición y Dietética"
+                                                },
+                                                {
+                                                    "id": "USC168",
+                                                    "name": "Pedagogía Educación Física"
+                                                },
+                                                {
+                                                    "id": "USC167",
+                                                    "name": "Pedagogía en Educación Básica"
+                                                },
+                                                {
+                                                    "id": "USC1149",
+                                                    "name": "Pedagogía en Educación Diferencial"
+                                                },
+                                                {
+                                                    "id": "USC165",
+                                                    "name": "Periodismo"
+                                                },
+                                                {
+                                                    "id": "USC158",
+                                                    "name": "Psicología"
+                                                },
+                                                {
+                                                    "id": "USC1135",
+                                                    "name": "Trabajo Social"
+                                                },
+                                                {
+                                                    "id": "ZSC1157",
+                                                    "name": "Enfermería"
+                                                },
+                                                {
+                                                    "id": "CSC163",
+                                                    "name": "Medicina Veterinaria - Continuidad de Estudios"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Melipilla": {
+                                            "id": "ME",
+                                            "careers": [
+                                                {
+                                                    "id": "UME153",
+                                                    "name": "Agronomía"
+                                                },
+                                                {
+                                                    "id": "UME163",
+                                                    "name": "Medicina Veterinaria"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Providencia": {
+                                            "id": "PR",
+                                            "careers": [
+                                                {
+                                                    "id": "UPR153",
+                                                    "name": "Agronomía"
+                                                },
+                                                {
+                                                    "id": "UPR1103",
+                                                    "name": "Animación Digital"
+                                                },
+                                                {
+                                                    "id": "UPR160",
+                                                    "name": "Arquitectura"
+                                                },
+                                                {
+                                                    "id": "UPR161",
+                                                    "name": "Construcción Civil"
+                                                },
+                                                {
+                                                    "id": "UPR156",
+                                                    "name": "Derecho"
+                                                },
+                                                {
+                                                    "id": "UPR1644",
+                                                    "name": "Diseño"
+                                                },
+                                                {
+                                                    "id": "UPR1157",
+                                                    "name": "Enfermería"
+                                                },
+                                                {
+                                                    "id": "UPR1203",
+                                                    "name": "Fonoaudiología"
+                                                },
+                                                {
+                                                    "id": "UPR1238",
+                                                    "name": "Gastronomía y Negocios Gastronómicos Mención Cocinas Andinas"
+                                                },
+                                                {
+                                                    "id": "UPR152",
+                                                    "name": "Ingeniería Comercial"
+                                                },
+                                                {
+                                                    "id": "UPR1112",
+                                                    "name": "Kinesiología"
+                                                },
+                                                {
+                                                    "id": "UPR1294",
+                                                    "name": "Licenciatura en Ciencias de la Actividad Física"
+                                                },
+                                                {
+                                                    "id": "UPR163",
+                                                    "name": "Medicina Veterinaria"
+                                                },
+                                                {
+                                                    "id": "UPR1132",
+                                                    "name": "Nutrición y Dietética"
+                                                },
+                                                {
+                                                    "id": "UPR1422",
+                                                    "name": "Obstetricia y Puericultura"
+                                                },
+                                                {
+                                                    "id": "UPR158",
+                                                    "name": "Psicología"
+                                                },
+                                                {
+                                                    "id": "UPR1204",
+                                                    "name": "Terapia Ocupacional"
+                                                },
+                                                {
+                                                    "id": "UPR195",
+                                                    "name": "Traduccción e Intérprete en Inglés"
+                                                },
+                                                {
+                                                    "id": "ZPR1157",
+                                                    "name": "Enfermería"
+                                                },
+                                                {
+                                                    "id": "ZPR1294",
+                                                    "name": "Licenciatura en Ciencias de la Actividad Física - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "CPR163",
+                                                    "name": "Medicina Veterinaria - Continuidad de Estudios"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "La Florida": {
+                                            "id": "LF",
+                                            "careers": [
+                                                {
+                                                    "id": "ULF1157",
+                                                    "name": "Enfermería"
+                                                },
+                                                {
+                                                    "id": "ULF152",
+                                                    "name": "Ingeniería Comercial"
+                                                },
+                                                {
+                                                    "id": "ULF1112",
+                                                    "name": "Kinesiología"
+                                                },
+                                                {
+                                                    "id": "ULF163",
+                                                    "name": "Medicina Veterinaria"
+                                                },
+                                                {
+                                                    "id": "ULF158",
+                                                    "name": "Psicología"
+                                                },
+                                                {
+                                                    "id": "ZLF1157",
+                                                    "name": "Enfermería"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Maipú": {
+                                            "id": "MP",
+                                            "careers": [
+                                                {
+                                                    "id": "UMP1157",
+                                                    "name": "Enfermería"
+                                                },
+                                                {
+                                                    "id": "UMP1112",
+                                                    "name": "Kinesiología"
+                                                },
+                                                {
+                                                    "id": "UMP163",
+                                                    "name": "Medicina Veterinaria"
+                                                },
+                                                {
+                                                    "id": "UMP158",
+                                                    "name": "Psicología"
+                                                },
+                                                {
+                                                    "id": "ZMP1157",
+                                                    "name": "Enfermería"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Concepción": {
+                                "id": "1",
+                                "campus": [
+                                    {
+                                        "Concepción": {
+                                            "id": "CO",
+                                            "careers": [
+                                                {
+                                                    "id": "UCO156",
+                                                    "name": "Derecho"
+                                                },
+                                                {
+                                                    "id": "UCO166",
+                                                    "name": "Educación Parvularia"
+                                                },
+                                                {
+                                                    "id": "UCO1157",
+                                                    "name": "Enfermería"
+                                                },
+                                                {
+                                                    "id": "UCO1203",
+                                                    "name": "Fonoaudiología"
+                                                },
+                                                {
+                                                    "id": "UCO152",
+                                                    "name": "Ingeniería Comercial"
+                                                },
+                                                {
+                                                    "id": "UCO1112",
+                                                    "name": "Kinesiología"
+                                                },
+                                                {
+                                                    "id": "UCO163",
+                                                    "name": "Medicina Veterinaria"
+                                                },
+                                                {
+                                                    "id": "UCO1132",
+                                                    "name": "Nutrición y Dietética"
+                                                },
+                                                {
+                                                    "id": "UCO1149",
+                                                    "name": "Pedagogía en Educación Diferencial"
+                                                },
+                                                {
+                                                    "id": "UCO158",
+                                                    "name": "Psicología"
+                                                },
+                                                {
+                                                    "id": "UCO1204",
+                                                    "name": "Terapia Ocupacional"
+                                                },
+                                                {
+                                                    "id": "UCO195",
+                                                    "name": "Traduccción e Intérprete en Inglés"
+                                                },
+                                                {
+                                                    "id": "ZCO1294",
+                                                    "name": "Licenciatura en Ciencias de la Actividad Física - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "CCO163",
+                                                    "name": "Medicina Veterinaria - Continuidad de Estudios"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Viña del Mar": {
+                                "id": "2",
+                                "campus": [
+                                    {
+                                        "Viña del Mar": {
+                                            "id": "VL",
+                                            "careers": [
+                                                {
+                                                    "id": "UVL156",
+                                                    "name": "Derecho"
+                                                },
+                                                {
+                                                    "id": "UVL1157",
+                                                    "name": "Enfermería"
+                                                },
+                                                {
+                                                    "id": "UVL1203",
+                                                    "name": "Fonoaudiología"
+                                                },
+                                                {
+                                                    "id": "UVL152",
+                                                    "name": "Ingeniería Comercial"
+                                                },
+                                                {
+                                                    "id": "UVL1112",
+                                                    "name": "Kinesiología"
+                                                },
+                                                {
+                                                    "id": "UVL163",
+                                                    "name": "Medicina Veterinaria"
+                                                },
+                                                {
+                                                    "id": "UVL1132",
+                                                    "name": "Nutrición y Dietética"
+                                                },
+                                                {
+                                                    "id": "UVL1422",
+                                                    "name": "Obstetricia y Puericultura"
+                                                },
+                                                {
+                                                    "id": "UVL158",
+                                                    "name": "Psicología"
+                                                },
+                                                {
+                                                    "id": "UVL1204",
+                                                    "name": "Terapia Ocupacional"
+                                                },
+                                                {
+                                                    "id": "UVL195",
+                                                    "name": "Traduccción e Intérprete en Inglés"
+                                                },
+                                                {
+                                                    "id": "ZVL1294",
+                                                    "name": "Licenciatura en Ciencias de la Actividad Física - Continuidad de Estudios"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "A Distancia": {
+                    "id": "5",
+                    "locations": [
+                        {
+                            "OnLine": {
+                                "id": "3",
+                                "campus": [
+                                    {
+                                        "Online": {
+                                            "id": "OL",
+                                            "careers": [
+                                                {
+                                                    "id": "XOL7318",
+                                                    "name": "Administración Pública - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "YOL7318",
+                                                    "name": "Administración Pública - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "ZOL7318",
+                                                    "name": "Administración Pública - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "UOL759",
+                                                    "name": "Contador Auditor"
+                                                },
+                                                {
+                                                    "id": "ZOL759",
+                                                    "name": "Contador Auditor - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "ZOL754",
+                                                    "name": "Ingeniería Civil Industrial - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "COL754",
+                                                    "name": "Ingeniería Civil Industrial - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "XOL754",
+                                                    "name": "Ingeniería Civil Industrial - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "UOL752",
+                                                    "name": "Ingeniería Comercial"
+                                                },
+                                                {
+                                                    "id": "COL752",
+                                                    "name": "Ingeniería Comercial - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "VOL752",
+                                                    "name": "Ingeniería Comercial - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "YOL752",
+                                                    "name": "Ingeniería Comercial - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "ZOL752",
+                                                    "name": "Ingeniería Comercial - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "UOL782",
+                                                    "name": "Ingeniería de Ejecución en Administración de Empresas"
+                                                },
+                                                {
+                                                    "id": "COL782",
+                                                    "name": "Ingeniería de Ejecución en Administración de Empresas - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "ZOL782",
+                                                    "name": "Ingeniería de Ejecución en Administración de Empresas - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "UOL781",
+                                                    "name": "Ingeniería de Ejecución en Informática"
+                                                },
+                                                {
+                                                    "id": "ZOL781",
+                                                    "name": "Ingeniería de Ejecución en Informática - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "UOL784",
+                                                    "name": "Ingeniería de Ejecución Industrial"
+                                                },
+                                                {
+                                                    "id": "XOL784",
+                                                    "name": "Ingeniería de Ejecución Industrial - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "YOL784",
+                                                    "name": "Ingeniería de Ejecución Industrial - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "ZOL784",
+                                                    "name": "Ingeniería de Ejecución Industrial - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "UOL7346",
+                                                    "name": "Ingeniería en Ciberseguridad"
+                                                },
+                                                {
+                                                    "id": "UOL7139",
+                                                    "name": "TNS en Administración de Empresas"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Campus Virtual Nacional": {
+                                            "id": "CV",
+                                            "careers": [
+                                                {
+                                                    "id": "ZCV7239",
+                                                    "name": "Ingeniería en Prevención de Riesgos y Medio Ambiente - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "UCV755",
+                                                    "name": "Publicidad"
+                                                },
+                                                {
+                                                    "id": "UCV757",
+                                                    "name": "Relaciones Públicas"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Executive": {
+                    "id": "3",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Providencia": {
+                                            "id": "PR",
+                                            "careers": [
+                                                {
+                                                    "id": "ZPR361",
+                                                    "name": "Construcción Civil - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "UPR356",
+                                                    "name": "Derecho"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "La Florida": {
+                                            "id": "LF",
+                                            "careers": [
+                                                {
+                                                    "id": "ULF356",
+                                                    "name": "Derecho"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Santiago Centro": {
+                                            "id": "SC",
+                                            "careers": [
+                                                {
+                                                    "id": "USC356",
+                                                    "name": "Derecho"
+                                                },
+                                                {
+                                                    "id": "ZSC382",
+                                                    "name": "Ingeniería de Ejecución en Administración de Empresas - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "CSC382",
+                                                    "name": "Ingeniería de Ejecución en Administración de Empresas - Continuidad de Estudios"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Concepción": {
+                                "id": "1",
+                                "campus": [
+                                    {
+                                        "Concepción": {
+                                            "id": "CO",
+                                            "careers": [
+                                                {
+                                                    "id": "UCO356",
+                                                    "name": "Derecho"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Viña del Mar": {
+                                "id": "2",
+                                "campus": [
+                                    {
+                                        "Viña del Mar": {
+                                            "id": "VL",
+                                            "careers": [
+                                                {
+                                                    "id": "UVL356",
+                                                    "name": "Derecho"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Semipresencial Vespertino": {
+                    "id": "6",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Providencia": {
+                                            "id": "PR",
+                                            "careers": [
+                                                {
+                                                    "id": "ZPR853",
+                                                    "name": "Agronomía - Continuidad de Estudios"
+                                                },
+                                                {
+                                                    "id": "UPR8203",
+                                                    "name": "Fonoaudiología"
+                                                },
+                                                {
+                                                    "id": "UPR8204",
+                                                    "name": "Terapia Ocupacional"
+                                                },
+                                                {
+                                                    "id": "UPR8383",
+                                                    "name": "TNS Agrícola"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Santiago Centro": {
+                                            "id": "SC",
+                                            "careers": [
+                                                {
+                                                    "id": "USC8132",
+                                                    "name": "Nutrición y Dietética"
+                                                },
+                                                {
+                                                    "id": "USC8139",
+                                                    "name": "TNS en Administración de Empresas"
+                                                },
+                                                {
+                                                    "id": "USC8135",
+                                                    "name": "Trabajo Social"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Melipilla": {
+                                            "id": "ME",
+                                            "careers": [
+                                                {
+                                                    "id": "UME8383",
+                                                    "name": "TNS Agrícola"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Viña del Mar": {
+                                "id": "2",
+                                "campus": [
+                                    {
+                                        "Viña del Mar": {
+                                            "id": "VL",
+                                            "careers": [
+                                                {
+                                                    "id": "UVL8132",
+                                                    "name": "Nutrición y Dietética"
+                                                },
+                                                {
+                                                    "id": "UVL8204",
+                                                    "name": "Terapia Ocupacional"
+                                                },
+                                                {
+                                                    "id": "UVL8135",
+                                                    "name": "Trabajo Social"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Concepción": {
+                                "id": "1",
+                                "campus": [
+                                    {
+                                        "Concepción": {
+                                            "id": "CO",
+                                            "careers": [
+                                                {
+                                                    "id": "UCO8139",
+                                                    "name": "TNS en Administración de Empresas"
+                                                },
+                                                {
+                                                    "id": "UCO8135",
+                                                    "name": "Trabajo Social"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Vespertino": {
+                    "id": "2",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Providencia": {
+                                            "id": "PR",
+                                            "careers": [
+                                                {
+                                                    "id": "UPR27014",
+                                                    "name": "Programa De Preparación Exámen de Grado"
+                                                },
+                                                {
+                                                    "id": "ZPR2294",
+                                                    "name": "Licenciatura en Ciencias de la Actividad Física - Continuidad de Estudios"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Semipresencial Executive": {
+                    "id": "7",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Melipilla": {
+                                            "id": "ME",
+                                            "careers": [
+                                                {
+                                                    "id": "UME963",
+                                                    "name": "Medicina Veterinaria"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Santiago Centro": {
+                                            "id": "SC",
+                                            "careers": [
+                                                {
+                                                    "id": "USC963",
+                                                    "name": "Medicina Veterinaria"
+                                                },
+                                                {
+                                                    "id": "USC958",
+                                                    "name": "Psicología"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Providencia": {
+                                            "id": "PR",
+                                            "careers": [
+                                                {
+                                                    "id": "UPR958",
+                                                    "name": "Psicología"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "La Florida": {
+                                            "id": "LF",
+                                            "careers": [
+                                                {
+                                                    "id": "ULF958",
+                                                    "name": "Psicología"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Maipú": {
+                                            "id": "MP",
+                                            "careers": [
+                                                {
+                                                    "id": "UMP958",
+                                                    "name": "Psicología"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Concepción": {
+                                "id": "1",
+                                "campus": [
+                                    {
+                                        "Concepción": {
+                                            "id": "CO",
+                                            "careers": [
+                                                {
+                                                    "id": "UCO963",
+                                                    "name": "Medicina Veterinaria"
+                                                },
+                                                {
+                                                    "id": "UCO958",
+                                                    "name": "Psicología"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Viña del Mar": {
+                                "id": "2",
+                                "campus": [
+                                    {
+                                        "Viña del Mar": {
+                                            "id": "VL",
+                                            "careers": [
+                                                {
+                                                    "id": "UVL963",
+                                                    "name": "Medicina Veterinaria"
+                                                },
+                                                {
+                                                    "id": "UVL958",
+                                                    "name": "Psicología"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Semipresencial Diurno": {
+                    "id": "4",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Santiago Centro": {
+                                            "id": "SC",
+                                            "careers": [
+                                                {
+                                                    "id": "USC4139",
+                                                    "name": "TNS en Administración de Empresas"
+                                                },
+                                                {
+                                                    "id": "USC4184",
+                                                    "name": "TNS en Enfermería"
+                                                },
+                                                {
+                                                    "id": "USC4229",
+                                                    "name": "TNS en Veterinaria"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "La Florida": {
+                                            "id": "LF",
+                                            "careers": [
+                                                {
+                                                    "id": "ULF4184",
+                                                    "name": "TNS en Enfermería"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Maipú": {
+                                            "id": "MP",
+                                            "careers": [
+                                                {
+                                                    "id": "UMP4184",
+                                                    "name": "TNS en Enfermería"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Providencia": {
+                                            "id": "PR",
+                                            "careers": [
+                                                {
+                                                    "id": "UPR4229",
+                                                    "name": "TNS en Veterinaria"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Melipilla": {
+                                            "id": "ME",
+                                            "careers": [
+                                                {
+                                                    "id": "UME4229",
+                                                    "name": "TNS en Veterinaria"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Concepción": {
+                                "id": "1",
+                                "campus": [
+                                    {
+                                        "Concepción": {
+                                            "id": "CO",
+                                            "careers": [
+                                                {
+                                                    "id": "UCO4229",
+                                                    "name": "TNS en Veterinaria"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "Postgrado": {
+        "id": "1",
+        "regimes": [
+            {
+                "Diurno": {
+                    "id": "1",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Providencia": {
+                                            "id": "PR",
+                                            "careers": [
+                                                {
+                                                    "id": "EPR4279",
+                                                    "name": "DIPLOMADO EN KINESIOLOGÍA RESPIRATORIA PARA ATENCIÓN PRIMARIA EN SALUD"
+                                                },
+                                                {
+                                                    "id": "EPR4350",
+                                                    "name": "DIPLOMADO EN PRESCRIPCIÓN DE EJERCICIOS DE FUERZA Y MUSCULACIÓN PARA LA ACTIVIDAD FÍSICA"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Concepción": {
+                                "id": "1",
+                                "campus": [
+                                    {
+                                        "Concepción": {
+                                            "id": "CO",
+                                            "careers": [
+                                                {
+                                                    "id": "ECO4279",
+                                                    "name": "DIPLOMADO EN KINESIOLOGÍA RESPIRATORIA PARA ATENCIÓN PRIMARIA EN SALUD"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "A Distancia": {
+                    "id": "5",
+                    "locations": [
+                        {
+                            "OnLine": {
+                                "id": "3",
+                                "campus": [
+                                    {
+                                        "Campus Virtual Nacional": {
+                                            "id": "CV",
+                                            "careers": [
+                                                {
+                                                    "id": "ECV7278",
+                                                    "name": "DIPLOMADO BIM EN INTEGRACIÓN DEL DISEÑO, COORDINACIÓN Y REVISIÓN PARA PROYECTOS AEC"
+                                                },
+                                                {
+                                                    "id": "ECV7306",
+                                                    "name": "DIPLOMADO DERECHO DEL TRABAJO Y SISTEMA DE RELACIONES LABORALES EN LA EMPRESA"
+                                                },
+                                                {
+                                                    "id": "ECV7472",
+                                                    "name": "DIPLOMADO EN ADAPTACIÓN AL CAMBIO CLIMÁTICO BAJO NORMA 14090:2020"
+                                                },
+                                                {
+                                                    "id": "ECV7496",
+                                                    "name": "DIPLOMADO EN AGROECOLOGÍA"
+                                                },
+                                                {
+                                                    "id": "ECV7365",
+                                                    "name": "DIPLOMADO EN ALFABETIZACIÓN INICIAL Y DIDÁCTICA PARA LA PRIMERA INFANCIA"
+                                                },
+                                                {
+                                                    "id": "ECV7435",
+                                                    "name": "DIPLOMADO EN AUDITOR LÍDER EN GESTIÓN DE RIESGOS EN SEGURIDAD Y SALUD OCUPACIONAL BAJO NORMA ISO 45001"
+                                                },
+                                                {
+                                                    "id": "ECV7337",
+                                                    "name": "DIPLOMADO EN BIOESTADÍSTICA"
+                                                },
+                                                {
+                                                    "id": "ECV7378",
+                                                    "name": "DIPLOMADO EN CIBERSEGURIDAD Y GESTIÓN"
+                                                },
+                                                {
+                                                    "id": "ECV7377",
+                                                    "name": "DIPLOMADO EN COMPETENCIAS DIGITALES PARA LA DOCENCIA"
+                                                },
+                                                {
+                                                    "id": "ECV7451",
+                                                    "name": "DIPLOMADO EN COMUNICACIÓN Y MARKETING DIGITAL PARA EMPRENDER"
+                                                },
+                                                {
+                                                    "id": "ECV7514",
+                                                    "name": "DIPLOMADO EN CONFLICTO Y COOPERACIÓN INTERNACIONAL EN EL SIGLO XXI"
+                                                },
+                                                {
+                                                    "id": "ECV7511",
+                                                    "name": "DIPLOMADO EN CONVIVENCIA EDUCATIVA Y APRENDIZAJE SOCIOEMOCIONAL"
+                                                },
+                                                {
+                                                    "id": "ECV7338",
+                                                    "name": "DIPLOMADO EN DATA SCIENCE"
+                                                },
+                                                {
+                                                    "id": "ECV7325",
+                                                    "name": "DIPLOMADO EN DERECHO ADMINISTRATIVO Y FUNCIÓN PÚBLICA"
+                                                },
+                                                {
+                                                    "id": "ECV7411",
+                                                    "name": "DIPLOMADO EN DERECHO INMOBILIARIO"
+                                                },
+                                                {
+                                                    "id": "ECV7473",
+                                                    "name": "DIPLOMADO EN DESARROLLO DE HABILIDADES E INNOVACIÓN EN EL AULA MATEMÁTICA"
+                                                },
+                                                {
+                                                    "id": "ECV7349",
+                                                    "name": "DIPLOMADO EN DISEÑO DE SISTEMAS DE RIEGO Y FERTIRRIGACIÓN"
+                                                },
+                                                {
+                                                    "id": "ECV7516",
+                                                    "name": "DIPLOMADO EN DIVERSIDAD, INCLUSIÓN Y SEGURIDAD EN EL ENTORNO LABORAL MENCIÓN AUDITOR INTERNO"
+                                                },
+                                                {
+                                                    "id": "ECV7484",
+                                                    "name": "DIPLOMADO EN DIVERSIDADES EN EDUCACIÓN SUPERIOR: ENFOQUE INTEGRAL EN NEUROCOGNICIÓN, GÉNERO, CULTURA Y SALUD MENTAL"
+                                                },
+                                                {
+                                                    "id": "ECV7360",
+                                                    "name": "DIPLOMADO EN DIVERSIFICACIÓN DE LA ENSEÑANZA PARA LA EDUCACIÓN INCLUSIVA"
+                                                },
+                                                {
+                                                    "id": "ECV7461",
+                                                    "name": "DIPLOMADO EN DOCENCIA PARA EL APRENDIZAJE A LO LARGO DE LA VIDA"
+                                                },
+                                                {
+                                                    "id": "ECV7443",
+                                                    "name": "DIPLOMADO EN ENFOQUE DE GÉNERO E INTERCULTURALIDAD PARA LA EDUCACIÓN SUPERIOR"
+                                                },
+                                                {
+                                                    "id": "ECV7517",
+                                                    "name": "DIPLOMADO EN ENSEÑANZA DEL INGLÉS CON ENFOQUE INCLUSIVO"
+                                                },
+                                                {
+                                                    "id": "ECV7418",
+                                                    "name": "DIPLOMADO EN EVALUACIÓN EDUCATIVA: DESDE LA COMPRENSIÓN A LA CONTEXTUALIZACIÓN EN EL AULA"
+                                                },
+                                                {
+                                                    "id": "ECV7425",
+                                                    "name": "DIPLOMADO EN EVALUACIÓN Y DISEÑO DE INSTRUMENTOS PARA EL CONTEXTO ESCOLAR"
+                                                },
+                                                {
+                                                    "id": "ECV7386",
+                                                    "name": "DIPLOMADO EN GESTIÓN AMBIENTAL BAJO NORMA ISO14001 CON MENCIÓN EN AUDITOR LÍDER"
+                                                },
+                                                {
+                                                    "id": "ECV7387",
+                                                    "name": "DIPLOMADO EN GESTIÓN DE EMERGENCIAS Y RESPUESTAS ANTE DESASTRES BAJO NORMA ISO 22320"
+                                                },
+                                                {
+                                                    "id": "ECV7501",
+                                                    "name": "DIPLOMADO EN GESTIÓN DE INFRAESTRUCTURA"
+                                                },
+                                                {
+                                                    "id": "ECV7453",
+                                                    "name": "DIPLOMADO EN GESTIÓN DE PERSONAS Y CAMBIO ORGANIZACIONAL"
+                                                },
+                                                {
+                                                    "id": "ECV7503",
+                                                    "name": "DIPLOMADO EN GESTIÓN DE PROYECTOS INMOBILIARIOS"
+                                                },
+                                                {
+                                                    "id": "ECV7471",
+                                                    "name": "DIPLOMADO EN GESTIÓN DE TURISMO DE INTERESES ESPECIALES"
+                                                },
+                                                {
+                                                    "id": "ECV7518",
+                                                    "name": "DIPLOMADO EN GESTIÓN ENERGÉTICA: CERTIFICACIÓN DE GESTOR ENERGÉTICO LEY 21.305 Y AUDITOR LÍDER ISO 50001"
+                                                },
+                                                {
+                                                    "id": "ECV7371",
+                                                    "name": "DIPLOMADO EN GESTIÓN TURISTICA SOSTENIBLE"
+                                                },
+                                                {
+                                                    "id": "ECV7463",
+                                                    "name": "DIPLOMADO EN GESTIÓN Y COORDINACIÓN DE PROGRAMAS EN ATENCIÓN PRIMARIA DE SALUD CON ENFOQUE EN EL MODELO DE ATENCIÓN INTEGRAL EN SALUD (MAIS)"
+                                                },
+                                                {
+                                                    "id": "ECV7519",
+                                                    "name": "DIPLOMADO EN GESTIÓN Y FORMACIÓN EDUCATIVA PARA LA FONOAUDIOLOGÍA"
+                                                },
+                                                {
+                                                    "id": "ECV7521",
+                                                    "name": "DIPLOMADO EN GESTIÓN Y MANEJO DE SUSTANCIAS Y RESIDUOS PELIGROSOS EN LA INDUSTRIA MENCIÓN AUDITOR INTERNO"
+                                                },
+                                                {
+                                                    "id": "ECV7273",
+                                                    "name": "DIPLOMADO EN GESTIÓN Y PLANIFICACIÓN TRIBUTARIA"
+                                                },
+                                                {
+                                                    "id": "ECV7384",
+                                                    "name": "DIPLOMADO EN INNOVACIÓN EN DOCENCIA UNIVERSITARIA"
+                                                },
+                                                {
+                                                    "id": "ECV7466",
+                                                    "name": "DIPLOMADO EN INNOVACIÓN SOCIAL PARA EL DESARROLLO SOSTENIBLE"
+                                                },
+                                                {
+                                                    "id": "ECV7476",
+                                                    "name": "DIPLOMADO EN INTEGRACIÓN DE LA INTELIGENCIA ARTIFICIAL EN EL ÁMBITO EDUCATIVO"
+                                                },
+                                                {
+                                                    "id": "ECV7529",
+                                                    "name": "DIPLOMADO EN INTELIGENCIA ARTIFICIAL APLICADA A LA GESTIÓN DE LA COMUNICACIÓN ESTRATÉGICA"
+                                                },
+                                                {
+                                                    "id": "ECV7467",
+                                                    "name": "DIPLOMADO EN INTELIGENCIA ARTIFICIAL EN LOS NEGOCIOS"
+                                                },
+                                                {
+                                                    "id": "ECV7506",
+                                                    "name": "DIPLOMADO EN INTELIGENCIA ARTIFICIAL PARA PROFESIONALES DE LA SALUD"
+                                                },
+                                                {
+                                                    "id": "ECV7530",
+                                                    "name": "DIPLOMADO EN INTELIGENCIA ARTIFICIAL, PERIODISMO Y COMUNICACIONES: INNOVACIÓN Y ÉTICA EN LA ERA DIGITAL"
+                                                },
+                                                {
+                                                    "id": "ECV7455",
+                                                    "name": "DIPLOMADO EN INTERVENCIÓN EN CONTEXTOS Y PROCESOS MIGRATORIOS"
+                                                },
+                                                {
+                                                    "id": "ECV7528",
+                                                    "name": "DIPLOMADO EN INTERVENCIÓN PSICOSOCIAL A VÍCTIMAS Y TESTIGOS EN EL SISTEMA DE JUSTICIA PENAL"
+                                                },
+                                                {
+                                                    "id": "ECV7445",
+                                                    "name": "DIPLOMADO EN INVESTIGACIÓN – ACCIÓN APLICADA A LA DOCENCIA UNIVERSITARIA"
+                                                },
+                                                {
+                                                    "id": "ECV7347",
+                                                    "name": "DIPLOMADO EN MEDICINA INTERNA EN CANINOS"
+                                                },
+                                                {
+                                                    "id": "ECV7320",
+                                                    "name": "DIPLOMADO EN MOTRICIDAD INFANTIL"
+                                                },
+                                                {
+                                                    "id": "ECV7348",
+                                                    "name": "DIPLOMADO EN NECESIDADES EDUCATIVAS ESPECIALES Y CONTEXTOS INCLUSIVOS"
+                                                },
+                                                {
+                                                    "id": "ECV7479",
+                                                    "name": "DIPLOMADO EN NORMATIVA LABORAL APLICADA"
+                                                },
+                                                {
+                                                    "id": "ECV7432",
+                                                    "name": "DIPLOMADO EN NUTRICIÓN DEPORTIVA Y FITNESS"
+                                                },
+                                                {
+                                                    "id": "ECV7404",
+                                                    "name": "DIPLOMADO EN ORIENTACIÓN EDUCACIONAL, VOCACIONAL Y FAMILIAR"
+                                                },
+                                                {
+                                                    "id": "ECV7327",
+                                                    "name": "DIPLOMADO EN PERITAJE PSICOSOCIAL EN MATERIA PENAL Y FAMILIA"
+                                                },
+                                                {
+                                                    "id": "ECV7470",
+                                                    "name": "DIPLOMADO EN PRODUCCIÓN DE EVENTOS EMPRESARIALES, TECNOLOGÍAS E INTELIGENCIA ARTIFICIAL"
+                                                },
+                                                {
+                                                    "id": "ECV7480",
+                                                    "name": "DIPLOMADO EN PRODUCCIÓN DE EVENTOS Y MEDIACIÓN ARTÍSTICA"
+                                                },
+                                                {
+                                                    "id": "ECV7533",
+                                                    "name": "DIPLOMADO EN PSICOLOGÍA EDUCACIONAL \"INTERVENCIÓN INTEGRAL Y SISTÉMICO EN LAS NECESIDADES EDUCATIVAS ESPECIALES EN EL CONTEXTO ESCOLAR\""
+                                                },
+                                                {
+                                                    "id": "ECV7534",
+                                                    "name": "DIPLOMADO EN PSICOLOGÍA POSITIVA Y BIENESTAR ORGANIZACIONAL"
+                                                },
+                                                {
+                                                    "id": "ECV7523",
+                                                    "name": "DIPLOMADO EN PSICOTERAPIA DE RESOLUCIÓN DE PROBLEMAS"
+                                                },
+                                                {
+                                                    "id": "ECV7398",
+                                                    "name": "DIPLOMADO EN SALUD FAMILIAR Y COMUNITARIO"
+                                                },
+                                                {
+                                                    "id": "ECV7481",
+                                                    "name": "DIPLOMADO EN SALUD, GESTIÓN Y BIENESTAR"
+                                                },
+                                                {
+                                                    "id": "ECV7287",
+                                                    "name": "DIPLOMADO EN SISTEMAS INTEGRADOS DE GESTIÓN DE CALIDAD, MEDIO AMBIENTE Y SEGURIDAD CON MENCIÓN EN AUDITOR LÍDER SIG"
+                                                },
+                                                {
+                                                    "id": "ECV7449",
+                                                    "name": "DIPLOMADO EN TRADUCCIÓN AUDIOVISUAL: SUBTITULADO Y DOBLAJE"
+                                                },
+                                                {
+                                                    "id": "ECV7433",
+                                                    "name": "DIPLOMADO EN TRASTORNO DEL ESPECTRO AUTISTA Y DISCAPACIDAD INTELECTUAL EN EL CURSO DE LA VIDA"
+                                                },
+                                                {
+                                                    "id": "ECV7527",
+                                                    "name": "DIPLOMADO EN TRIBUTACIÓN INTERNACIONAL"
+                                                },
+                                                {
+                                                    "id": "ECV7510",
+                                                    "name": "DIPLOMADO EN TURISMO CULTURAL Y LAS INDUSTRIAS CREATIVAS"
+                                                },
+                                                {
+                                                    "id": "UCV7408",
+                                                    "name": "MAGÍSTER EN ADMINISTRACIÓN DE EMPRESAS - MBA"
+                                                },
+                                                {
+                                                    "id": "UCV7336",
+                                                    "name": "MAGÍSTER EN BIENESTAR ANIMAL Y ETOLOGÍA APLICADA"
+                                                },
+                                                {
+                                                    "id": "UCV7421",
+                                                    "name": "MAGÍSTER EN DATA SCIENCE"
+                                                },
+                                                {
+                                                    "id": "UCV7333",
+                                                    "name": "MAGÍSTER EN EDUCACIÓN CON MENCIÓN EN INNOVACIÓN PARA EL APRENDIZAJE"
+                                                },
+                                                {
+                                                    "id": "UCV7491",
+                                                    "name": "MAGÍSTER EN EDUCACIÓN FÍSICA Y MOTRICIDAD HUMANA"
+                                                },
+                                                {
+                                                    "id": "UCV7420",
+                                                    "name": "MAGÍSTER EN PRÁCTICAS SOCIO-ESPACIALES"
+                                                },
+                                                {
+                                                    "id": "UCV7373",
+                                                    "name": "MAGÍSTER EN SALUD COMUNITARIA"
+                                                },
+                                                {
+                                                    "id": "UCV7493",
+                                                    "name": "MAGÍSTER EN SUSTENTABILIDAD DE RECURSOS NATURALES Y MEDIOAMBIENTE"
+                                                },
+                                                {
+                                                    "id": "UCV7495",
+                                                    "name": "MAGÍSTER INTERDISCIPLINARIO PARA EL ACOMPAÑAMIENTO DE PERSONAS AUTISTAS"
+                                                },
+                                                {
+                                                    "id": "ECV7405",
+                                                    "name": "POSTÍTULO EN DISCAPACIDAD INTELECTUAL Y EDUCACIÓN INCLUSIVA"
+                                                },
+                                                {
+                                                    "id": "ECV7331",
+                                                    "name": "POSTÍTULO EN PREVENCIÓN DE RIESGOS"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Online": {
+                                            "id": "OL",
+                                            "careers": [
+                                                {
+                                                    "id": "UOL7352",
+                                                    "name": "MAGÍSTER EN DIDÁCTICA DE LA LECTURA Y LA ESCRITURA"
+                                                },
+                                                {
+                                                    "id": "UOL7257",
+                                                    "name": "MAGÍSTER EN DOCENCIA UNIVERSITARIA"
+                                                },
+                                                {
+                                                    "id": "UOL7353",
+                                                    "name": "MAGÍSTER EN ONE HEALTH - UNA SALUD"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Executive": {
+                    "id": "3",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Melipilla": {
+                                            "id": "ME",
+                                            "careers": [
+                                                {
+                                                    "id": "EME3289",
+                                                    "name": "DIPLOMADO EN CIRUGÍA DE ANIMALES DE COMPAÑÍA"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Providencia": {
+                                            "id": "PR",
+                                            "careers": [
+                                                {
+                                                    "id": "EPR3363",
+                                                    "name": "DIPLOMADO EN MEDIACIÓN Y RESOLUCIÓN DE CONFLICTOS EN EL ÁMBITO DE LA FAMILIA"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Semipresencial Vespertino": {
+                    "id": "6",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Santiago Centro": {
+                                            "id": "SC",
+                                            "careers": [
+                                                {
+                                                    "id": "ESC8498",
+                                                    "name": "DIPLOMADO EN APRENDIZAJE DE MANIFESTACIONES DEPORTIVAS: CLAVES DIDÁCTICAS PARA EL ÁMBITO ESCOLAR"
+                                                },
+                                                {
+                                                    "id": "ESC8356",
+                                                    "name": "DIPLOMADO EN GERONTOGERIATRÍA INTERDISCIPLINARIA"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Melipilla": {
+                                            "id": "ME",
+                                            "careers": [
+                                                {
+                                                    "id": "EME8454",
+                                                    "name": "DIPLOMADO EN IMAGENOLOGÍA DE ANIMALES PEQUEÑOS"
+                                                },
+                                                {
+                                                    "id": "EME8446",
+                                                    "name": "DIPLOMADO EN MANEJO DE HOSPITAL VETERINARIO"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Providencia": {
+                                            "id": "PR",
+                                            "careers": [
+                                                {
+                                                    "id": "EPR8437",
+                                                    "name": "DIPLOMADO EN APICULTURA"
+                                                },
+                                                {
+                                                    "id": "EPR8290",
+                                                    "name": "DIPLOMADO EN DOCENCIA EN SIMULACIÓN CLÍNICA"
+                                                },
+                                                {
+                                                    "id": "EPR8457",
+                                                    "name": "DIPLOMADO EN LITIGACIÓN Y ARGUMENTACIÓN"
+                                                },
+                                                {
+                                                    "id": "EPR8525",
+                                                    "name": "DIPLOMADO EN TRATAMIENTOS ESTÉTICOS Y DERMATOFUNCIONALES"
+                                                },
+                                                {
+                                                    "id": "EPR8536",
+                                                    "name": "DIPLOMADO EN TÉCNICAS DE DIAGNÓSTICO DE LABORATORIO CLÍNICO VETERINARIO"
+                                                },
+                                                {
+                                                    "id": "UPR8494",
+                                                    "name": "MAGÍSTER INTERDISCIPLINAR EN DISCAPACIDAD E INCLUSIÓN"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Concepción": {
+                                "id": "1",
+                                "campus": [
+                                    {
+                                        "Concepción": {
+                                            "id": "CO",
+                                            "careers": [
+                                                {
+                                                    "id": "ECO8525",
+                                                    "name": "DIPLOMADO EN TRATAMIENTOS ESTÉTICOS Y DERMATOFUNCIONALES"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Vespertino": {
+                    "id": "2",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Santiago Centro": {
+                                            "id": "SC",
+                                            "careers": [
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Semipresencial Executive": {
+                    "id": "7",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Melipilla": {
+                                            "id": "ME",
+                                            "careers": [
+                                                {
+                                                    "id": "EME3297",
+                                                    "name": "DIPLOMADO EN MEDICINA FELINA"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Providencia": {
+                                            "id": "PR",
+                                            "careers": [
+                                                {
+                                                    "id": "EPR8474",
+                                                    "name": "DIPLOMADO EN EMERGENCIAS Y SOPORTE VITAL AVANZADO"
+                                                },
+                                                {
+                                                    "id": "EPR9434",
+                                                    "name": "DIPLOMADO EN PSICOLOGÍA APLICADA A LA ACTIVIDAD FÍSICA Y EL DEPORTE"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Semipresencial Diurno": {
+                    "id": "4",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Santiago Centro": {
+                                            "id": "SC",
+                                            "careers": [
+                                                {
+                                                    "id": "USC4492",
+                                                    "name": "MAGÍSTER EN KINESIOLOGÍA MÚSCULO-ESQUELÉTICA APLICADA"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Melipilla": {
+                                            "id": "ME",
+                                            "careers": [
+                                                {
+                                                    "id": "EME4392",
+                                                    "name": "DIPLOMADO EN ANESTESIA Y MANEJO DE DOLOR EN PEQUEÑOS ANIMALES"
+                                                },
+                                                {
+                                                    "id": "EME4478",
+                                                    "name": "DIPLOMADO EN MEDICINA EQUINA"
+                                                },
+                                                {
+                                                    "id": "EME4524",
+                                                    "name": "DIPLOMADO EN REHABILITACIÓN Y FISIATRÍA VETERINARIA"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Providencia": {
+                                            "id": "PR",
+                                            "careers": [
+                                                {
+                                                    "id": "EPR4500",
+                                                    "name": "DIPLOMADO EN FISIOLOGÍA HUMANA CON ORIENTACIÓN CLÍNICA"
+                                                },
+                                                {
+                                                    "id": "EPR4416",
+                                                    "name": "DIPLOMADO EN GESTIÓN Y OPERACIÓN EN ALIMENTOS Y BEBIDAS"
+                                                },
+                                                {
+                                                    "id": "EPR4522",
+                                                    "name": "DIPLOMADO EN HERRAMIENTAS SOCIOEMOCIONALES PARA LA ACTIVIDAD FÍSICA Y EL DEPORTE"
+                                                },
+                                                {
+                                                    "id": "EPR4358",
+                                                    "name": "DIPLOMADO EN SALUD MENTAL: ABORDAJE INTERDISCIPLINARIO Y GESTIÓN CLÍNICA"
+                                                },
+                                                {
+                                                    "id": "EPR4526",
+                                                    "name": "DIPLOMADO EN TRAUMATOLOGÍA Y ORTOPEDIA VETERINARIA"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Maipú": {
+                                            "id": "MP",
+                                            "careers": [
+                                                {
+                                                    "id": "EMP4302",
+                                                    "name": "DIPLOMADO EN DIAGNÓSTICO Y CONTROL DE PLAGAS URBANAS"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Presencial": {
+                    "id": "8",
+                    "locations": [
+                        {
+                            "Santiago": {
+                                "id": "0",
+                                "campus": [
+                                    {
+                                        "Providencia": {
+                                            "id": "PR",
+                                            "careers": [
+                                                {
+                                                    "id": "UPR1490",
+                                                    "name": "MAGÍSTER EN CIENCIAS BIOLÓGICAS Y QUÍMICAS"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Santiago Centro": {
+                                            "id": "SC",
+                                            "careers": [
+                                                {
+                                                    "id": "ESC2532",
+                                                    "name": "POSTÍTULO EN MENCIÓN EN EDUCACIÓN MATEMÁTICA (COORDINACIÓN Y TRANSICIÓN A LA ED. MEDIA)"
+                                                },
+                                                {
+                                                    "id": "ESC2531",
+                                                    "name": "POSTÍTULO EN MENCIÓN LENGUAJE Y COMUNICACIÓN (COORDINACIÓN Y TRANSICIÓN A LA ED. MEDIA)"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
